@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+
+.header_btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.nav{
+  width: 100px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar{
+  background-color: #0a0b0f;
+  width: 300px;
+  height: 500px;
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: -300px;
+  transition: .5s;
+}
+
+#sidebar.active{
+  left: 0;
+}
+
+input{
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+main .container .regBox button{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.title_body{
+  color: white;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 150px 100px;
+  margin-left: 250px;
+  gap: 20px;
+}
+
+main .container{
+  display: flex;
+  
+}
+
+h4, h1{
+  text-transform: uppercase;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+span{
+  color: #feca6e;
+}
+
+.body_btn{
+  background-color: #feca6e;
+  padding: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.container_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 100px;
+  width: 300px;
+}
+
+a:hover{
+  color: #feca6e;
+}
+
+.body_btn:hover{
+  background-color: #ffb637;
+}
